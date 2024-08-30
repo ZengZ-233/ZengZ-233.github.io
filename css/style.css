@@ -7285,7 +7285,7 @@ to {
 }
 .highlight-wrap {
     position: relative;
-    background:#21252b;
+    background:#e2e2e2;
     border-radius:5px;
     font:15px/22px "Microsoft YaHei","Arial",Sans-Serif;
     line-height:1.6;
@@ -7293,7 +7293,8 @@ to {
     max-width:100%;
     overflow:auto;
     text-shadow:none;
-    color:#000;
+    /* 代码字体颜色 */
+    color:#e06c75;  
     padding-top:30px;
     box-shadow:0 10px 30px 0 rgba(0,0,0,.4)
 }
@@ -7322,7 +7323,7 @@ to {
 }
 .highlight-wrap code {
     background:#1d1f21;
-    color:#fff;
+    color:#fb7299;
     word-break:break-word;
     font-family:'Source Code Pro',monospace,Helvetica,Tahoma,Arial,STXihei,"STHeiti Light","Microsoft YaHei",sans-serif;
     padding:2px;
@@ -7331,7 +7332,7 @@ to {
     cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur),auto
 }
 .highlight-wrap code[data-rel]:before {
-    color:#fff;
+    color:#ccc;
     content:attr(data-rel);
     height:38px;
     line-height:38px;
